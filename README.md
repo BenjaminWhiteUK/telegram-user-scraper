@@ -2,11 +2,13 @@
 
 A powerful, professional-grade Telegram username extraction tool with an intuitive CLI interface. Extract active usernames from any Telegram group or channel by analyzing complete message history with advanced filtering capabilities.
 
-![License](https://img.shields.io/badge/License-Professional-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.7+-green.svg)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)
-![GitHub](https://img.shields.io/badge/GitHub-BenjaminWhiteUK-blue.svg)
-![Telegram](https://img.shields.io/badge/Telegram-API-blue.svg)
+[![License](https://img.shields.io/badge/License-Professional-blue.svg)](https://github.com/BenjaminWhiteUK/telegram-user-scraper)
+[![Python](https://img.shields.io/badge/Python-3.7+-green.svg)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)](https://github.com/BenjaminWhiteUK/telegram-user-scraper)
+[![GitHub](https://img.shields.io/badge/GitHub-BenjaminWhiteUK-blue.svg)](https://github.com/BenjaminWhiteUK)
+[![Telegram](https://img.shields.io/badge/Telegram-API-blue.svg)](https://core.telegram.org/api)
+[![Stars](https://img.shields.io/github/stars/BenjaminWhiteUK/telegram-user-scraper?style=social)](https://github.com/BenjaminWhiteUK/telegram-user-scraper/stargazers)
+[![Forks](https://img.shields.io/github/forks/BenjaminWhiteUK/telegram-user-scraper?style=social)](https://github.com/BenjaminWhiteUK/telegram-user-scraper/network/members)
 
 ## ✨ Features
 
@@ -28,6 +30,19 @@ The **Telegram Username Extractor** is a comprehensive solution for **Telegram s
 5. **🔒 Privacy Compliant**: Respects Telegram's ToS and user privacy guidelines
 
 **Perfect for**: Marketing research, community analysis, user engagement studies, and legitimate business intelligence.
+
+## 📁 Repository Structure
+
+```
+telegram-user-scraper/
+├── 📄 scraper.py          # Main application script
+├── 📖 README.md           # This documentation
+├── 📸 photo/              # Screenshots and examples
+│   ├── main_menu.png      # Main menu interface
+│   ├── scraper.png        # Scraper in action
+│   └── session connection.png  # Session setup process
+└── 🚫 .gitignore          # Git ignore rules
+```
 
 ## 📋 Requirements
 
@@ -52,7 +67,7 @@ pip install tgcrypto  # For faster encryption (reduces CPU usage)
 ### Method 1: Quick Setup
 ```bash
 # Download the script directly
-wget https://raw.githubusercontent.com/BenjaminWhiteUK/telegram-username-extractor/main/scraper.py
+wget https://raw.githubusercontent.com/BenjaminWhiteUK/telegram-user-scraper/main/scraper.py
 
 # Install dependencies
 pip3 install telethon psutil uvloop tgcrypto
@@ -67,8 +82,8 @@ python3 scraper.py
 ### Method 2: Full Installation
 ```bash
 # Clone the repository
-git clone https://github.com/BenjaminWhiteUK/telegram-username-extractor.git
-cd telegram-username-extractor
+git clone https://github.com/BenjaminWhiteUK/telegram-user-scraper.git
+cd telegram-user-scraper
 
 # Install dependencies
 pip3 install telethon psutil uvloop tgcrypto
@@ -261,6 +276,12 @@ This software is provided "as is" for educational and research purposes. See the
 ### 🏷️ Keywords & Tags
 `telegram scraper` `username extractor` `telegram bot` `telegram api` `python telegram` `telegram automation` `user analysis` `telegram tools` `message history` `telegram mining` `social media scraping` `telegram usernames` `cli tool` `benjamin white` `professional scraper`
 
+### 🔗 Repository Links
+- **📦 Main Repository**: https://github.com/BenjaminWhiteUK/telegram-user-scraper
+- **📥 Direct Download**: https://raw.githubusercontent.com/BenjaminWhiteUK/telegram-user-scraper/main/scraper.py
+- **🐛 Issues & Bug Reports**: https://github.com/BenjaminWhiteUK/telegram-user-scraper/issues
+- **⭐ Star the Project**: https://github.com/BenjaminWhiteUK/telegram-user-scraper/stargazers
+
 ## 🌟 Support
 
 ### Before Reporting Issues
@@ -277,7 +298,7 @@ This tool is actively maintained. Feature requests and improvements are welcome 
 ## 🎯 Quick Start Summary
 
 1. **Install**: `pip3 install telethon psutil uvloop`
-2. **Download**: `wget https://raw.githubusercontent.com/BenjaminWhiteUK/telegram-username-extractor/main/scraper.py`
+2. **Download**: `wget https://raw.githubusercontent.com/BenjaminWhiteUK/telegram-user-scraper/main/scraper.py`
 3. **Run**: `python3 scraper.py`
 4. **Connect**: Add your Telegram session  
 5. **Scrape**: Enter group info and start scraping
@@ -295,7 +316,7 @@ If this tool has been helpful to you, please consider showing your appreciation:
 
 Your star helps us grow and motivates us to keep improving this tool. It takes just one click and means the world to us!
 
-**👆 [Click the ⭐ Star button at the top of this page](https://github.com/BenjaminWhiteUK/telegram-username-extractor)**
+**👆 [Click the ⭐ Star button at the top of this page](https://github.com/BenjaminWhiteUK/telegram-user-scraper)**
 
 ### 💝 Why Your Star Matters:
 - 🚀 **Boosts visibility** - Helps other developers discover this tool
