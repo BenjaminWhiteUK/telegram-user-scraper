@@ -14,14 +14,17 @@ A powerful, professional-grade Telegram username extraction tool with an intuiti
 
 ### 🎯 Main Menu Interface
 ![Main Menu](photo/main_menu.png)
+
 *Professional CLI interface with intuitive menu options*
 
 ### 🔗 Session Connection Process  
 ![Session Connection](photo/session_connection.png)
+
 *Easy session setup with step-by-step guidance*
 
 ### 🚀 Scraper in Action
 ![Scraper Running](photo/scraper.png)
+
 *Real-time progress tracking and professional output*
 
 ## ✨ Features
