@@ -1,13 +1,3 @@
-# Telegram Session Files
-sessions.db
-sessions.db-wal
-sessions.db-shm
-*.session
-
-# Output Files
-users.txt
-*.txt
-
 # Python
 __pycache__/
 *.py[cod]
@@ -29,11 +19,17 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual Environment
 venv/
 env/
 ENV/
+
+# Telegram Sessions
+*.session
+sessions.db*
+users.txt
 
 # IDE
 .vscode/

@@ -12,7 +12,6 @@ A powerful, professional-grade Telegram username extraction tool with an intuiti
 
 - **🎯 Smart User Detection**: Analyzes entire message history to find users who have actually chatted
 - **👑 Admin Filtering**: Automatically excludes all administrators and moderators
-- **💎 Premium User Filtering**: Option to filter out users requiring payment to message
 - **📱 Multi-Session Support**: Add multiple Telegram sessions for better performance
 - **🛡️ Memory Optimized**: Designed for low-resource servers (3GB+ RAM recommended)
 - **🎨 Professional CLI**: Beautiful, user-friendly command-line interface
@@ -24,7 +23,7 @@ The **Telegram Username Extractor** is a comprehensive solution for **Telegram s
 
 1. **📊 Complete Message History Analysis**: Scans every message ever sent in the group/channel
 2. **🎯 Active User Identification**: Only collects usernames from users who have actually participated in conversations  
-3. **🤖 Smart Filtering System**: Automatically excludes admins, bots, deleted accounts, and premium users
+3. **🤖 Smart Filtering System**: Automatically excludes admins, bots, and deleted accounts
 4. **💾 Clean Data Export**: Outputs organized username lists to text files for easy use
 5. **🔒 Privacy Compliant**: Respects Telegram's ToS and user privacy guidelines
 
@@ -98,28 +97,40 @@ python3 scraper.py
    - **Group ID**: `-1001234567890`
    - **Username**: `@groupname` or `groupname`
    - **Invite Link**: `https://t.me/joinchat/xxxxx` or `https://t.me/+xxxxx`
-3. Choose whether to filter premium users (y/n)
-4. Wait for the scraping process to complete
-5. Find results in `users.txt`
+3. Wait for the scraping process to complete
+4. Find results in `users.txt`
 
 ## 💡 Usage Examples
 
 ### Example 1: Scraping by Username
 ```
 🔸 Enter group ID, username, or invite link: @cryptotraders
-🌟 Skip users that require payment to message (premium users)? (y/n): y
+🚀 Starting user scraping...
+🔍 Starting to scrape users from: Crypto Traders
+📊 Group: Crypto Traders
+🕐 Scanning entire message history for active users...
+📈 Processed 5000 messages, found 127 unique usernames
+🎯 History scan completed!
+📊 Total messages processed: 8420
+✅ Unique usernames found: 234
+🎉 Successfully scraped 234 usernames!
+📁 Results saved to: users.txt
 ```
 
 ### Example 2: Scraping by Group ID
 ```
 🔸 Enter group ID, username, or invite link: -1001234567890
-🌟 Skip users that require payment to message (premium users)? (y/n): n
+🚀 Starting user scraping...
+📊 Total messages processed: 12,340
+✅ Unique usernames found: 456
 ```
 
 ### Example 3: Scraping by Invite Link
 ```
 🔸 Enter group ID, username, or invite link: https://t.me/joinchat/AAAAAEhyO1234567890
-🌟 Skip users that require payment to message (premium users)? (y/n): y
+🔗 Joining group via invite link...
+✅ Successfully joined group
+🚀 Starting user scraping...
 ```
 
 ## 📁 Output Format
@@ -272,8 +283,32 @@ This tool is actively maintained. Feature requests and improvements are welcome 
 5. **Scrape**: Enter group info and start scraping
 6. **Results**: Check `users.txt` for extracted usernames
 
-**🚀 Ready to extract usernames like a pro!**
+**🚀 Ready to extract usernames like a pro**
+
+---
+
+## ⭐ Show Your Support
+
+If this tool has been helpful to you, please consider showing your appreciation:
+
+### 🌟 **Give us a Star on GitHub!**
+
+Your star helps us grow and motivates us to keep improving this tool. It takes just one click and means the world to us!
+
+**👆 [Click the ⭐ Star button at the top of this page](https://github.com/BenjaminWhiteUK/telegram-username-extractor)**
+
+### 💝 Why Your Star Matters:
+- 🚀 **Boosts visibility** - Helps other developers discover this tool
+- 💪 **Shows appreciation** - Motivates continued development and improvements  
+- 🌍 **Builds community** - Creates a network of users and contributors
+- 📈 **Drives innovation** - More stars = more features and updates
+
+### 🎯 **It's Free, Fast & Makes a Difference!**
+
+**⭐ Star this repo → Share with friends → Help the community grow!**
 
 ---
 
 *Made with ❤️ by Benjamin White | Professional Edition v1.0*
+
+**🌟 Don't forget to star the repo if you found it useful! 🌟**
