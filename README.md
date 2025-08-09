@@ -10,6 +10,20 @@ A powerful, professional-grade Telegram username extraction tool with an intuiti
 [![Stars](https://img.shields.io/github/stars/BenjaminWhiteUK/telegram-user-scraper?style=social)](https://github.com/BenjaminWhiteUK/telegram-user-scraper/stargazers)
 [![Forks](https://img.shields.io/github/forks/BenjaminWhiteUK/telegram-user-scraper?style=social)](https://github.com/BenjaminWhiteUK/telegram-user-scraper/network/members)
 
+## 📸 Screenshots
+
+### 🎯 Main Menu Interface
+![Main Menu](photo/main_menu.png)
+*Professional CLI interface with intuitive menu options*
+
+### 🔗 Session Connection Process  
+![Session Connection](photo/session_connection.png)
+*Easy session setup with step-by-step guidance*
+
+### 🚀 Scraper in Action
+![Scraper Running](photo/scraper.png)
+*Real-time progress tracking and professional output*
+
 ## ✨ Features
 
 - **🎯 Smart User Detection**: Analyzes entire message history to find users who have actually chatted
@@ -40,7 +54,7 @@ telegram-user-scraper/
 ├── 📸 photo/              # Screenshots and examples
 │   ├── main_menu.png      # Main menu interface
 │   ├── scraper.png        # Scraper in action
-│   └── session connection.png  # Session setup process
+│   └── session_connection.png  # Session setup process
 └── 🚫 .gitignore          # Git ignore rules
 ```
 
@@ -99,12 +113,20 @@ python3 scraper.py
 python3 scraper.py
 ```
 
+You'll see the professional main menu interface:
+
+![Main Menu Interface](photo/main_menu.png)
+
 ### Step 2: Connect Your Telegram Session
 1. Select **[1] 📱 Connect Session** from the main menu
 2. Enter your phone number with country code (e.g., +1234567890)
 3. Enter the SMS verification code sent to your phone
 4. If you have 2FA enabled, enter your password
 5. Choose whether to add more sessions or return to main menu
+
+The session connection process is guided and user-friendly:
+
+![Session Connection Process](photo/session_connection.png)
 
 ### Step 3: Start Scraping
 1. Select **[2] 🔍 Start Scraper** from the main menu
@@ -114,6 +136,10 @@ python3 scraper.py
    - **Invite Link**: `https://t.me/joinchat/xxxxx` or `https://t.me/+xxxxx`
 3. Wait for the scraping process to complete
 4. Find results in `users.txt`
+
+Watch the scraper work with real-time progress updates:
+
+![Scraper in Action](photo/scraper.png)
 
 ## 💡 Usage Examples
 
